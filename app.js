@@ -9,10 +9,6 @@ if(html.classList.contains("light")){
 } else{
     img.setAttribute("src", "./assets/tic.jpg")
 }
-// if(html.classList.contains("light")){
-//   html.classList.remove("light")
-// } else{
-//   html.classList.add("light")
-// }
+
 
 }
