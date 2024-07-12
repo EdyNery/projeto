@@ -7,6 +7,6 @@ const img = document.querySelector("#profile img")
 if(html.classList.contains("light")){
   img.setAttribute("src", "./assets/avatar.png")
 } else{
-    img.setAttribute("src", "./assets/tic.jpg")
+    img.setAttribute("src", "./assets/Tic.jpg")
 }
 }
