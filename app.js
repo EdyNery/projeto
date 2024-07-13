@@ -5,8 +5,8 @@ html.classList.toggle("light")
 const img = document.querySelector("#profile img")
 
 if(html.classList.contains("dark")){
-  img.setAttribute("src", "./assets/Tic.jpg")
+  img.setAttribute("src", "./assets/frangao.jpg")
 } else{
-    img.setAttribute("src", "./assets/frangao.jpg")
+    img.setAttribute("src", "./assets/Tic.jpg")
 }
 }
