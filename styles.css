@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-:root{
+.dark{
     --text-color: white;
     --bg-url: url(./assets/bg-mobile.jpg);
     --stroke-color: rgba(255, 255, 255, 0.5);
@@ -14,7 +14,7 @@
     --switch-bg-url: url(./assets/MoonStars.svg)
 }
 
-.light{
+:root{
     --text-color: black;
     --bg-url: url(./assets/bg-mobile-light.jpg);
     --stroke-color: rgba(0, 0, 0, 0.5);
@@ -82,7 +82,7 @@ body *  {
 
 }
 
-.light #switch button{
+.dark #switch button{
     animation: slide-in 0.4s forwards;
 }
 
@@ -166,28 +166,28 @@ footer a{
 
 
     @media (min-width: 700px) {
-        :root{
+        .dark{
             --bg-url: url(./assets/bg-desktop.jpg);
         }
-        .light{
+        :root{
             --bg-url: url(./assets/bg-desktop-light.jpg);
         }    
     }
 
     @keyframes slide-in{
         from{
-            left: 0;
+            left: 50;
         }
         to{
-            left: 50%
+            left: 0%
         }
     }
 
         @keyframes slide-back{
         from{
-            left: 50%;
+            left: 0%;
         }
         to{
-            left: 0
+            left: 50%
         }
     }
